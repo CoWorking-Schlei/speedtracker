@@ -8,7 +8,8 @@
     "build": "NODE_ENV=production ./node_modules/webpack/bin/webpack.js -p",
     "lint": "standard --verbose | snazzy",
     "watch": "./node_modules/webpack/bin/webpack.js --watch",
-    "postinstall": "opencollective postinstall"
+    "postinstall": "opencollective postinstall",
+    "start-tests": "node run.js"
   },
   "config": {
     "ghooks": {
